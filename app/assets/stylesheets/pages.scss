@@ -1,0 +1,109 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+/* HEADER */
+.header {
+    padding: 20px;
+    max-height: 200px;
+    background-color: #E2CFEA;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.header-link {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: #6247AA;
+}
+
+
+/* MAIN */
+.main {
+	margin: 100px;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.headline {
+	font-size: 70px;
+	text-align: left;
+}
+
+.highlight:hover {
+	color: #6247AA;
+}
+
+/* change background color to white, remove outline when active */
+/* when hover change color to #E2CFEA, text color #6247AA */
+.button {
+	color: #6247AA !important;
+}
+
+.button:hover {
+	background-color: #E2CFEA !important;
+}
+
+.button-container{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	margin: 0px 40px 40px 40px;
+}
+
+
+/* FOOTER */
+footer {
+	width: 100vw;
+	display: flex;
+    justify-content: center;
+	overflow: hidden;
+	padding: 70px 0;
+	box-sizing: border-box;
+    background-color: #E2CFEA;
+}
+
+.inner-footer {
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.inner-footer .footer-third h1 {
+	font-size: 18px;
+	color: white;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.inner-footer .footer-third a {
+	font-size: 16px;
+	color: white;
+	display: block;
+	font-weight: 200;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+.inner-footer .footer-third li {
+	display: inline-block;
+	padding: 5px 0px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.fab {
+	margin-right: 8px;
+}
+
+@media(max-width: 400px) {}
