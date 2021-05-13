@@ -11,12 +11,14 @@
 
 .nav-bar {
     display: flex;
-    justify-content: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .header-link {
     color: white;
-    margin-right: 20px;
+    margin-right: 10px;
+	margin-left: 10px;
     text-decoration: none;
 }
 
@@ -35,21 +37,19 @@
 
 .headline {
 	font-size: 70px;
-	text-align: left;
+	text-align: justify;
 }
 
 .highlight:hover {
 	color: #6247AA;
 }
 
-/* change background color to white, remove outline when active */
-/* when hover change color to #E2CFEA, text color #6247AA */
 .button {
 	color: #6247AA !important;
 }
 
 .button:hover {
-	background-color: #E2CFEA !important;
+	background-color: rgba(226, 207, 234, 0.25) !important;
 }
 
 .button-container{
@@ -72,7 +72,6 @@ footer {
 }
 
 .inner-footer {
-	display: block;
 	margin: 0 auto;
 	height: 100%;
 }
@@ -106,4 +105,15 @@ footer {
 	margin-right: 8px;
 }
 
-@media(max-width: 400px) {}
+.fab:hover {
+	color: #6247AA;
+}
+
+.copyright {
+	margin-left: -11px;
+}
+
+/* media queries? */
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 528px) {}
