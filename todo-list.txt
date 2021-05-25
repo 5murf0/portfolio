@@ -5,4 +5,4 @@ portfolio
     - create contact me form
 
 #Portfolio
-    - create slidewhow for projects
+    - create slideshow for projects
