@@ -106,7 +106,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV['SENGRID_USERNAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
-    :domain         => 'heroku.com',
+    :domain         => 'https://andreamaffia.herokuapp.com/',
     :enable_starttls_auto => true
   }
 
