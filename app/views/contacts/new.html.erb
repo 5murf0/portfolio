@@ -1,20 +1,30 @@
-<h1 id="page-title">Hello mafrend</h1>
+<h1 id="page-title">Contact me</h1>
 
-<div class="wrapper">
-    <%= form_for @contact do |f| %>
-        <%= f.label :name %><br>
-        <%= f.text_field :name, required: true %>
+<div class="contact-container">
+    <div class="contact-wrapper">
+        <div class="contact-form">
+            <%= form_for @contact do |f| %>
+                <div class="label-name">
+                    <%= f.label :name %><br>
+                    <%= f.text_field :name, required: true, class:"label-name-area" %>
+                </div>
 
-        <br>
+                <br>
 
-        <%= f.label :email %><br>
-        <%= f.email_field :email, required: true %>
+                <div class="label-email">
+                    <%= f.label :email %><br>
+                    <%= f.email_field :email, required: true, class:"email-area" %>
+                </div>
 
-        <br>
+                <br>
 
-        <%= f.label :message %><br>
-        <%= f.text_area :message, as: :text %>
+                <div class="label-message">
+                    <%= f.label :message %><br>
+                    <%= f.text_area :message, as: :text, class:"message-area" %>
+                </div>
 
-        <%= f.submit 'Send Message', class:"button" %>
-    <% end %>
+                <%= f.submit 'Send it!', class:"send-button" %>
+            <% end %>
+        </div>
+    </div>
 </div>
