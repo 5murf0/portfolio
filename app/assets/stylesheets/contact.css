@@ -32,21 +32,21 @@ label {
     height: 30px;
     width: 190px;
     border-radius: 6px;
-    border: 0.1px solid rgb(98, 71, 170, 0.2);
+    border: 0.1px solid rgba(98, 71, 170, 0.2);
 }
 
 .email-area {
     height: 30px;
     width: 260px;
     border-radius: 6px;
-    border: 0.1px solid rgb(98, 71, 170, 0.2);
+    border: 0.1px solid rgba(98, 71, 170, 0.2);
 }
 
 .message-area {
     height: 150px;
     width: 410px;
     border-radius: 6px;
-    border: 0.1px solid rgb(98, 71, 170, 0.2);
+    border: 0.1px solid rgba(98, 71, 170, 0.2);
     resize: none;
 }
 
