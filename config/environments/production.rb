@@ -27,6 +27,8 @@ Rails.application.configure do
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
 
+  config.sendgrid_api_key = ENV.fetch('SENDGRID_API_KEY')
+
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
@@ -105,7 +107,7 @@ Rails.application.configure do
     :port           => '587',         
     :authentication => :plain,
     :user_name      => 'apikey',
-    :password       => ENV['SENDGRID_PASSWORD'],
+    :password       => ENV['SENDGRID_API_KEY'],
     :domain         => 'heroku.com',
     :enable_starttls_auto => true
   }
